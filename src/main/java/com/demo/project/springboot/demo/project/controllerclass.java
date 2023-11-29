@@ -9,7 +9,7 @@ import org.springframework.web.bind.annotation.RestController;
 public class controllerclass {
 
 	
-		@GetMapping()
+		@GetMapping("/test")
 		public String hello(){
 		return "welcome to springboot application";
 		}
